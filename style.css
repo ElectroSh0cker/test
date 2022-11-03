@@ -12,6 +12,8 @@ header{
 .navbar{
     display: flex;
     justify-content: center;
+    transition-duration: 2s;
+    
 }
 nav{
 display: inline;
@@ -20,7 +22,8 @@ padding: 0 2px;
 
 a:hover {
     background: rgb(104, 39, 39);
-    border-radius: 1px;
+    border-radius: 10px;
+    transition-duration: 0.5s;
 }
 a {
     text-decoration: none;
