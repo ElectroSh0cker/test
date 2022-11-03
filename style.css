@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;   
+}
+header{
+    
+    padding-top: 20px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    
+}
+nav{
+    display: inline;
+}
+
+a:hover {
+    background: rgb(104, 39, 39);
+    color: black;
+    border-radius: 25px;
+}
+a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: aliceblue;
+    border-radius: 25px;
+    border-color: brown;
+    border: solid;
+}
+
